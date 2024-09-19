@@ -1,0 +1,52 @@
+.HeaderStyling{
+	font-family:Impact,fantasy ;
+	text-align: center;
+}
+button{
+	cursor: pointer;
+}
+body{height: 2000px; width: 1500px}
+ .bodyStyling{
+ 	background-color: rgb(204, 201, 147, 1.0);
+ 	background-image: url(https://images.squarespace-cdn.com/content/v1/60b2598bb8f1e112c4089fae/1646130840757-GXRK2SR2QTTSD82VGJZ2/Raseef+Beirut.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 	
+ 	
+ }
+
+ .MenuButton{
+ 	font-family: Impact, fantasy;
+ 	margin-left: 40%;
+ 	margin-top: 3%;
+ 	width: 60px;
+ 	height: 40px;
+ 	background-color: black;
+ 	color: whitesmoke;
+
+
+ }
+ .MenuButton:hover{
+ 	background-color: lightgrey;
+ 	color: black;
+ }
+ .Guesthouse{
+ 	font-family: Impact,fantasy;
+ 	margin-left: 10%;
+ 	margin-top: 3%;
+ 	width: 80px;
+ 	height: 40px;
+ 	
+ 	background-color: black;
+ 	color: whitesmoke;
+ }
+ .Guesthouse:hover{
+ 	background-color: lightgrey;
+ 	color: black;
+ }
+
+
+ @media(max-width: 700px){
+
+	
+	} 	
