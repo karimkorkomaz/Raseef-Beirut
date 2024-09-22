@@ -7,10 +7,11 @@ button{
 }
 body{height: 2000px; width: 1500px}
  .bodyStyling{
- 	background-color: rgb(204, 201, 147, 1.0);
+
  	background-image: url(https://images.squarespace-cdn.com/content/v1/60b2598bb8f1e112c4089fae/1646130840757-GXRK2SR2QTTSD82VGJZ2/Raseef+Beirut.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+	 width:100%;
  	
  	
  }
@@ -46,7 +47,10 @@ body{height: 2000px; width: 1500px}
  }
 
 
- @media(max-width: 700px){
+ @media(max-width:700px){
+.bodyStyling{
+	width: 50%;
 
+}
 	
 	} 	
